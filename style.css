@@ -1,0 +1,120 @@
+body {
+  margin: 0px;
+  background-color: #192850;
+  height: 1500px;
+}
+
+#topelement {
+  position: sticky;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #192850;
+  align-items: baseline;
+  z-index: 1;
+}
+
+#topelement .name {
+  margin-left: 30px;
+  font-family: Caveat;
+  font-size: 45px;
+  color: #00ffff;
+}
+
+#topelement .list {
+  display: flex;
+  margin-right: 80px;
+  font-family: "Oswald";
+  font-size: 25px;
+  gap: 80px;
+}
+
+#topelement .home {
+  color: #ffff;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+#topelement .home:hover {
+  transform: translateY(-10px);
+  text-decoration: underline;
+  color: #00ffff;
+}
+
+#topelement .socials {
+  display: flex;
+  justify-content: right;
+  align-items: baseline;
+  margin-right: 40px;
+  font-family: "Oswald";
+  font-size: 22px;
+  gap: 30px;
+}
+
+.fa {
+  width: 20;
+  height: 20;
+  font-size: 10px;
+  border: 1px solid;
+  padding: 8px;
+  padding-bottom: 10px;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.fa:hover {
+  transform: translateY(10);
+  opacity: 0.3;
+}
+
+.fa-facebook {
+  color: #ffff;
+}
+
+.fa-twitter {
+  color: #ffff;
+}
+
+.fa-instagram {
+  color: #ffff;
+}
+
+.hi {
+  margin: auto;
+  margin-left: 100px;
+  position: relative;
+  top: 150px;
+  width: 600px;
+  text-align: left;
+  font-family: "Oswald";
+  font-size: 55px;
+  color: #ffff;
+}
+
+.hi_2 {
+  color: #00ffff;
+}
+
+#main_section .headshot {
+  position: relative;
+  bottom: 300px;
+  left: 800;
+  width: 450px;
+  height: 430px;
+  border-radius: 50%;
+  box-shadow: 0px 5px 20px 15px #040404e8;
+}
+
+.bio {
+  font-size: 20px;
+}
+
+.icons {
+  position: relative;
+  width: 400px;
+  bottom: 400px;
+  opacity: 0.8;
+  z-index: -1;
+}
